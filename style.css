@@ -1,3 +1,21 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
+nav {
+    background-color: mediumorchid;
+}
+
+body {
+    position: relative;
+    padding: auto;
+    background-color: aliceblue;
+}
+
+.card {
+    border: 2px solid crimson;
+    border-radius: 20px;
+    max-width: 20rem; 
+    height: 11rem;
+}
+
+.scrollspy-collapsible {
+    border-radius: 10px;
+    border: 2px solid tomato
 }
