@@ -1,6 +1,7 @@
 <!DOCTYPE html>
+<html>
   <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio page">
@@ -17,98 +18,87 @@
       </div>
   </nav>
   <br>
-  <body data-mdb-spy="scrollspy" data-mdb-target="#scrollspy-collapsible">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-8">
-                <!-- Spied element -->
-                <div class="scrollspy-example">
-                  <section id="example-1-collapsible">
-                    <h3>About Me</h3>
-                    <p id="background-info">
-                      A little information on my background:
-                      <ul>
-                          <li>Muhammad Shahmil Bin Shahidan</li>
-                          <li>From Shah Alam, Selangor</li>
-                          <li>Bsc. Advanced Computer Science (Monash University)</li>
-                          <li>Software Engineer at Intel IOTG</li>
-                      </ul>
-                      Born on 25 December 1997 in Ampang, Selangor. Spending most of childhood times in Kuala Lumpur.
-                      Started my first education at St John's Institution, Kuala Lumpur for 6 years. Received secondary 
-                      education at St John's Institution and Sekolah Menengah Sains Selangor, Kuala Lumpur. Completed 
-                      pre-university at Sunway's College in Monash University Foundation Year.
-                    </p>
-                  </section>
-                  <section id="example-2-collapsible">
-                    <h3>Interests</h3>
-                    <p>
-                      <li>Sports</li>
-                      Sports that I have tried:
-                      <ul>
-                          <li>Badminton</li>
-                          <li>Football</li>
-                          <li>Rugby</li>
-                          <li>Basketball</li>
-                          <li>Cheerleading</li>
-                          <li>Tennis</li>
-                          <li>Golf</li>
-                          <li>Frisbee</li>
-                          <li>Volleyball</li>
-                      </ul>
-                      <li>Science and Technology</li>
-                      <li>Health</li>
-                      <li>Music</li>
+  <body data-spy="scroll" data-target=".list-group" data-offset="50">
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-3">
+          <div id="list-example" class="list-group position-fixed">
+            <a class="list-group-item list-group-item-action active" href="#list-item-1">About Me</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Interests</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Skills</a>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+            <div class="card" style="width:800px; text-align: justify; padding: 20px;">
+              <h4 id="list-item-1">About Me</h4>
+              <p>
+                A little information on my background:
+                <ul>
+                  <li>Muhammad Shahmil Bin Shahidan</li>
+                  <li>From Shah Alam, Selangor</li>
+                  <li>Bsc. Advanced Computer Science (Monash University)</li>
+                  <li>Software Engineer at Intel IOTG</li>
+                </ul>
+                Born on 25 December 1997 in Ampang, Selangor. Spending most of childhood times in Kuala Lumpur.
+                Started my first education at St John's Institution, Kuala Lumpur for 6 years. Received secondary 
+                education at St John's Institution and Sekolah Menengah Sains Selangor, Kuala Lumpur. Completed 
+                pre-university at Sunway's College in Monash University Foundation Year.
+              </p>
+              <h4 id="list-item-2">Interests</h4>
+              <p>
+                <ul>
+                  <li>Sports</li>
+                  Sports that I have tried:
+                  <ul>
+                    <li>Badminton</li>
+                    <li>Football</li>
+                    <li>Rugby</li>
+                    <li>Basketball</li>
+                    <li>Cheerleading</li>
+                    <li>Tennis</li>
+                    <li>Golf</li>
+                    <li>Frisbee</li>
+                    <li>Volleyball</li>
                   </ul>
-                    </p>
-                  </section>
-                  <section id="example-3-collapsible">
-                    <h3>Skills</h3>
-                    <p>
-                      <ul>
-                          <li>Programming</li>
-                          <ul>
-                              <li>Algorithms</li>
-                              <li>Data structures</li>
-                              <li>Object Oriented Programming</li>
-                              <li>Parallel Computing</li>
-                          </ul>
-                          <li>Coding</li>
-                          <ul>
-                              <li>Python</li>
-                              <li>JavaScript</li>
-                              <li>C</li>
-                          </ul>
-                          <li>Linux systems</li>
-                          <li>Computer hardware</li>
-                          <ul>
-                              <li>Replacing RAM</li>
-                              <li>Partitioning disk</li>
-                              <li>Fix broken links in startup disk</li>
-                          </ul>
-                      </ul>
-                    </p>
-                  </section>
-                </div>
-                <!-- Spied element -->
-              </div>
-              <div class="col-md-4">
-                <!-- Scrollspy -->
-                <div id="scrollspy-collapsible" class="sticky-top">
-                  <ul class="nav flex-column nav-pills menu-sidebar">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#example-1-collapsible">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#example-2-collapsible">Interests</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#example-3-collapsible">Skills</a>
-                    </li>
+                  <li>Science and Technology</li>
+                  <li>Health</li>
+                  <li>Music</li>
+                </ul>
+              </p>
+              <h4 id="list-item-3">Skills</h4>
+              <p>
+                <ul>
+                  <li>Programming</li>
+                  <ul>
+                    <li>Algorithms</li>
+                    <li>Data structures</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Parallel Computing</li>
                   </ul>
-                </div>
-                <!-- Scrollspy -->
-              </div>
+                  <li>Coding</li>
+                  <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>C</li>
+                  </ul>
+                  <li>Linux systems</li>
+                  <li>Computer hardware</li>
+                  <ul>
+                    <li>Replacing RAM</li>
+                    <li>Partitioning disk</li>
+                    <li>Fix broken links in startup disk</li>
+                  </ul>
+                </ul>
+              </p>
             </div>
+          </div>
+        </div>
       </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
   </body>
   <footer></footer>
+</html>

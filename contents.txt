@@ -1,0 +1,71 @@
+<div class="col-md-8">
+                <!-- Spied element -->
+                <div class="scrollspy-example">
+                  <section id="example-1-collapsible">
+                    <h3>About Me</h3>
+                    <p id="background-info">
+                      A little information on my background:
+                      <ul>
+                          <li>Muhammad Shahmil Bin Shahidan</li>
+                          <li>From Shah Alam, Selangor</li>
+                          <li>Bsc. Advanced Computer Science (Monash University)</li>
+                          <li>Software Engineer at Intel IOTG</li>
+                      </ul>
+                      Born on 25 December 1997 in Ampang, Selangor. Spending most of childhood times in Kuala Lumpur.
+                      Started my first education at St John's Institution, Kuala Lumpur for 6 years. Received secondary 
+                      education at St John's Institution and Sekolah Menengah Sains Selangor, Kuala Lumpur. Completed 
+                      pre-university at Sunway's College in Monash University Foundation Year.
+                    </p>
+                  </section>
+                  <section id="example-2-collapsible">
+                    <h3>Interests</h3>
+                    <p>
+                      <li>Sports</li>
+                      Sports that I have tried:
+                      <ul>
+                          <li>Badminton</li>
+                          <li>Football</li>
+                          <li>Rugby</li>
+                          <li>Basketball</li>
+                          <li>Cheerleading</li>
+                          <li>Tennis</li>
+                          <li>Golf</li>
+                          <li>Frisbee</li>
+                          <li>Volleyball</li>
+                      </ul>
+                      <li>Science and Technology</li>
+                      <li>Health</li>
+                      <li>Music</li>
+                  </ul>
+                    </p>
+                  </section>
+                  <section id="example-3-collapsible">
+                    <h3>Skills</h3>
+                    <p>
+                      <ul>
+                          <li>Programming</li>
+                          <ul>
+                              <li>Algorithms</li>
+                              <li>Data structures</li>
+                              <li>Object Oriented Programming</li>
+                              <li>Parallel Computing</li>
+                          </ul>
+                          <li>Coding</li>
+                          <ul>
+                              <li>Python</li>
+                              <li>JavaScript</li>
+                              <li>C</li>
+                          </ul>
+                          <li>Linux systems</li>
+                          <li>Computer hardware</li>
+                          <ul>
+                              <li>Replacing RAM</li>
+                              <li>Partitioning disk</li>
+                              <li>Fix broken links in startup disk</li>
+                          </ul>
+                      </ul>
+                    </p>
+                  </section>
+                </div>
+                <!-- Spied element -->
+              </div>
